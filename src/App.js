@@ -106,19 +106,19 @@ function App() {
             <Route path="/createAccorder/:id?" element={<CreateAccOrder />} />
             <Route path="/accOrderlist" element={<AccorderList />} />
             <Route path="/admin" element={<Admin />} />
-            <Route path="/newAdmin" element={<AddNewAdmin />} />
+            <Route path="/newAdmin/:id?" element={<AddNewAdmin />} />
             <Route path="/buyer" element={<Buyer />} />
-            <Route path="/addBuyer" element={<AddBuyer />} />
+            <Route path="/addBuyer/:id?" element={<AddBuyer />} />
             <Route path="/merchandiser" element={<Merchandiser />} />
-            <Route path="/addMerch" element={<AddMerchandiser />} />
+            <Route path="/addMerch/:id?" element={<AddMerchandiser />} />
             <Route path="/commercial" element={<CommercialList />} />
-            <Route path="/addComm" element={<AddCommercial />} />
+            <Route path="/addComm/:id?" element={<AddCommercial />} />
             <Route path="/accountant" element={<Accountant />} />
-            <Route path="/addacc" element={<AddAccountant />} />
+            <Route path="/addAcc/:id?" element={<AddAccountant />} />
             <Route path="/designation" element={<Designations />} />
-            <Route path="/pays" element={<PayS />} />
+            <Route path="/pays/:id?" element={<PayS />} /> 
             <Route path="/employee" element={<Employees />} />
-            <Route path="/addemp" element={<AddEmployee />} />
+            <Route path="/addemp/:id?" element={<AddEmployee />} />
             <Route path="/salarylist" element={<SalaryList />} />
             <Route path="/buyerdue" element={<BuyerDue />} />
             <Route path="/myprofile" element={<MyProfile />} />
@@ -135,23 +135,23 @@ function App() {
             <Route path="/notification" element={<Notification/>} />
             <Route path="/systemsetting" element={<SystemSetting/>} />
             <Route path="/orderlist" element={<Ordersummary/>} />
-            <Route path="/addneworder" element={<AddNeworder/>} />
+            <Route path="/addneworder/:id?" element={<AddNeworder/>} />
             <Route path="/bookinglist" element={<Booklist/>} />
-            <Route path="/addNewbooklist" element={<AddNeworder/>} />
+            <Route path="/addNewbooklist/:id?" element={<AddNeworder/>} />
             <Route path="/budgetlist" element={<Booklist/>} />
-            <Route path="/addnewbudget" element={<Addnewbudget/>} />
+            <Route path="/addnewbudget/:id?" element={<Addnewbudget/>} />
             <Route path="/costing" element={<Costinglist/>} />
             <Route path="/sample" element={<Orderlist/>} />
             <Route path="/shipmentlist" element={<Shipmentslist/>} />
             <Route path="/buyers" element={<Buyer/>} />
-            <Route path="/addbuyer" element={<Addbuyer/>} />
+            <Route path="/addbuyer/:id?" element={<Addbuyer/>} />
             <Route path="/suppliers" element={<Supplierlist/>} />
             <Route path="/buyerduelist" element={<Allbuyerduelist/>} />
           
-            <Route path="/addnewshipment" element={<Addnewshipmentlist/>} />
+            <Route path="/addnewshipment/:id?" element={<Addnewshipmentlist/>} />
 
             <Route path="/productionlist" element={<ProductionList/>} />
-            <Route path="/addproduction" element={<AddProd/>} />
+            <Route path="/addproduction/:id?" element={<AddProd/>} />
             <Route path="/Booking_list" element={<Booking_List/>} />
 
             {/* update */}

@@ -169,7 +169,7 @@ const CreateUnit = ({ onUnitCreated }) => {
 
   return (
     <div>
-      <div className="card border-primary col-11 " style={{ marginLeft: '100px', marginTop: '50px' }}>
+      <div className="card border-primary col-11 " style={{ marginLeft: '50px', marginTop: '50px' }}>
         <div className="card-header">
           <h5 className="card-title">{id ? 'EDIT UNIT' : 'CREATE NEW UNIT LIST'}</h5>
           <div style={{ marginLeft: '600px' }} className="btn-group" role="group" aria-label="Basic outlined example">
